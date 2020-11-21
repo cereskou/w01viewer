@@ -1,5 +1,6 @@
 # Prerequisites
 *.d
+w01doc
 
 # Compiled Object files
 *.slo
