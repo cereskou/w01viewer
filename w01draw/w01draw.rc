@@ -1,0 +1,1067 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#include ""res\\w01draw.rc2""  // Microsoft Visual C++ 以外で編集されたリソース\r\n"
+    "#include ""l.JPN\\afxres.rc""      // 標準コンポーネント\r\n"
+    "#include ""l.JPN\\afxprint.rc""    // 印刷/印刷プレビュー リソース\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.JPN\\afxribbon.rc""        // MFC リボンおよびコントロール バー リソース\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\w01draw.ico"
+
+IDR_w01drawTYPE         ICON                    "res\\w01drawDoc.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+IDI_DOCINF_VIEW         ICON                    "res\\docinf_vw.ico"
+
+IDI_FONT_VIEW           ICON                    "res\\font_v.ico"
+
+IDI_FONTXML_VIEW        ICON                    "res\\fontxml_v.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+IDR_w01drawTYPE         BITMAP                  "res\\toolbar1.bmp"
+
+IDR_DEBUG               BITMAP                  "res\\bmp00001.bmp"
+
+IDR_FONTXML             BITMAP                  "res\\bmp00002.bmp"
+
+IDR_DOCFONT             BITMAP                  "res\\bmp00003.bmp"
+
+IDR_PAGEINFO            BITMAP                  "res\\pageinf.bmp"
+
+IDR_NUMERICAL           BITMAP                  "res\\numerical.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+    BUTTON      ID_LIST_EXPAND
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_REFRESH
+    SEPARATOR
+    BUTTON      ID_HIGHLIGHT
+    BUTTON      ID_SELECTLINE
+    SEPARATOR
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+IDR_w01drawTYPE TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_VIEW_ZOOMIN
+    BUTTON      ID_VIEW_ZOOMOUT
+    SEPARATOR
+    BUTTON      ID_VIEW_SHOWWIDE
+    BUTTON      ID_VIEW_FULL
+    BUTTON      ID_VIEW_ZOOMCOMBO
+    SEPARATOR
+    BUTTON      ID_VIEW_SHOWINFO
+    SEPARATOR
+    BUTTON      ID_VIEW_FIND
+    SEPARATOR
+    BUTTON      ID_PAGE_FIRST
+    BUTTON      ID_PAGE_PREV
+    BUTTON      ID_PAGE_COUNT
+    BUTTON      ID_PAGE_NEXT
+    BUTTON      ID_PAGE_LAST
+END
+
+IDR_DEBUG TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_VIEW_TEXT
+    BUTTON      ID_VIEW_OVLY
+    BUTTON      ID_VIEW_IMAGE
+    BUTTON      ID_VIEW_LINE
+    SEPARATOR
+    BUTTON      ID_VIEW_TEXTXY
+    BUTTON      ID_VIEW_CELLDEF
+    BUTTON      ID_VIEW_HIGHLIGHT
+    BUTTON      ID_VIEW_WSI
+    SEPARATOR
+    BUTTON      ID_VIEW_TIPS
+    SEPARATOR
+    BUTTON      ID_TEXT_OVLTEXTCOLOR
+    BUTTON      ID_COMBO_OVLTXTCOLOR
+END
+
+IDR_FONTXML TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_XML_RELOAD
+    SEPARATOR
+    BUTTON      ID_XML_OPEN
+    BUTTON      ID_XML_SAVE
+    SEPARATOR
+    BUTTON      ID_XML_DRAWFONT
+    BUTTON      ID_XML_DELETE
+    SEPARATOR
+    BUTTON      ID_XML_EXPAND
+    BUTTON      ID_XML_COLLAPSE
+END
+
+IDR_DOCFONT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_DOCFONT_REFRESH
+    SEPARATOR
+    BUTTON      ID_DOCFONT_SYNCTO
+    BUTTON      ID_DOCFONT_SYNCFROM
+END
+
+IDR_PAGEINFO TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PAGEINF_RELOAD
+END
+
+IDR_NUMERICAL TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_NUMS_RELOAD
+    BUTTON      ID_HIGHLIGHT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "開く(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "プリンターの設定...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったファイル",                   ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",             ID_APP_EXIT
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "ステータス バー(&S)",                ID_VIEW_STATUS_BAR
+        MENUITEM "ツール バー(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM SEPARATOR
+        MENUITEM "ファイルビュー(&F)",                 ID_VIEW_FILEVIEW
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "バージョン情報(&A)...",              ID_APP_ABOUT
+    END
+END
+
+IDR_w01drawTYPE MENU
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "開く(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "セル定義ファイルを開く...",              ID_FILE_OPENCELL
+        MENUITEM "閉じる(&C)",                     ID_FILE_CLOSE
+        MENUITEM "すべて閉じる(&A)",                  ID_FILE_CLOSEALL
+        MENUITEM "PDFファイル出力",                   ID_FILE_PDF
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "印刷プレビュー(&V)",                 ID_FILE_PRINT_PREVIEW
+        MENUITEM "プリンターの設定...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったファイル",                   ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",             ID_APP_EXIT
+    END
+    POPUP "帳票情報(&D)"
+    BEGIN
+        MENUITEM "帳票の詳細情報",                     ID_VIEW_SHOWINFO
+        MENUITEM SEPARATOR
+        MENUITEM "最初のページ",                      ID_PAGE_FIRST
+        MENUITEM "前のページ",                       ID_PAGE_PREV
+        MENUITEM "次のページ",                       ID_PAGE_NEXT
+        MENUITEM "最後のページ",                      ID_PAGE_LAST
+        MENUITEM SEPARATOR
+        MENUITEM "検索\tCtrl+F",                  ID_VIEW_FIND
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "ステータス バー(&S)",                ID_VIEW_STATUS_BAR
+        MENUITEM "ツール バー(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM SEPARATOR
+        MENUITEM "ファイルビュー(&F)",                 ID_VIEW_FILEVIEW
+        MENUITEM SEPARATOR
+        POPUP "ズーム"
+        BEGIN
+            MENUITEM "100%\t*",                     ID_VIEW_FULL
+            MENUITEM "拡大表示\t+",                     ID_VIEW_ZOOMIN
+            MENUITEM "縮小表示\t-",                     ID_VIEW_ZOOMOUT
+            MENUITEM "Page Width",                  ID_VIEW_SHOWWIDE
+        END
+    END
+    POPUP "ウィンドウ(&W)"
+    BEGIN
+        MENUITEM "新しいウィンドウを開く(&N)",             ID_WINDOW_NEW
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "バージョン情報(&A)...",              ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "編集"
+    BEGIN
+        MENUITEM "切り取り(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "コピー(&C)\tCtrl+C",             ID_EDIT_COPY
+        MENUITEM "貼り付け(&P)\tCtrl+V",            ID_EDIT_PASTE
+    END
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "並べ替え"
+    BEGIN
+        MENUITEM "アルファベット順に並べ替え(&S)",           ID_SORTING_SORTALPHABETIC
+        MENUITEM "種類で並べ替え(&T)",                 ID_SORTING_SORTBYTYPE
+        MENUITEM "アクセスで並べ替え(&E)",               ID_SORTING_SORTBYACCESS
+        MENUITEM "種類でグループ化(&Y)",                ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "エクスプローラー"
+    BEGIN
+        MENUITEM "開く(&O)",                      ID_OPEN
+        MENUITEM "ファイルを開くアプリケーションの選択(&W)...",   ID_OPEN_WITH
+        MENUITEM SEPARATOR
+        MENUITEM "コンパイル(&C)",                   ID_DUMMY_COMPILE
+        MENUITEM SEPARATOR
+        MENUITEM "切り取り(&T)\tCtrl+X",            ID_EDIT_CUT
+        MENUITEM "コピー(&C)\tCtrl+C",             ID_EDIT_COPY
+        MENUITEM "削除(&R)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "プロパティ(&P)...",                ID_PROPERTIES
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "バージョン情報(&A)...",              ID_APP_ABOUT
+END
+
+IDR_POPUP_TAB MENU
+BEGIN
+    POPUP "TAB"
+    BEGIN
+        MENUITEM "閉じる",                         ID_FILE_CLOSE
+        MENUITEM "すべての帳票を閉じる(&L)",              ID_FILE_CLOSEALL
+        MENUITEM "このウィンドウ以外すべて閉じる(&A)",         ID_FILE_CLOSEOTHER
+    END
+END
+
+IDR_w01drawDEBUG MENU
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        MENUITEM "開く(&O)...\tCtrl+O",           ID_FILE_OPEN
+        MENUITEM "セル定義ファイルを開く...",              ID_FILE_OPENCELL
+        MENUITEM "WSIファイルを開く...",               ID_FILE_WSI
+        MENUITEM SEPARATOR
+        MENUITEM "閉じる(&C)",                     ID_FILE_CLOSE
+        MENUITEM "すべて閉じる(&A)",                  ID_FILE_CLOSEALL
+        MENUITEM "PDFファイル出力",                   ID_FILE_PDF
+        MENUITEM SEPARATOR
+        MENUITEM "印刷(&P)...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "印刷プレビュー(&V)",                 ID_FILE_PRINT_PREVIEW
+        MENUITEM "プリンターの設定...",                 ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "最近使ったファイル",                   ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "アプリケーションの終了(&X)",             ID_APP_EXIT
+    END
+    POPUP "帳票情報(&D)"
+    BEGIN
+        MENUITEM "帳票の詳細情報",                     ID_VIEW_SHOWINFO
+        MENUITEM SEPARATOR
+        MENUITEM "最初のページ",                      ID_PAGE_FIRST
+        MENUITEM "前のページ",                       ID_PAGE_PREV
+        MENUITEM "次のページ",                       ID_PAGE_NEXT
+        MENUITEM "最後のページ",                      ID_PAGE_LAST
+        MENUITEM SEPARATOR
+        MENUITEM "検索\tCtrl+F",                  ID_VIEW_FIND
+    END
+    POPUP "表示(&V)"
+    BEGIN
+        MENUITEM "ステータス バー(&S)",                ID_VIEW_STATUS_BAR
+        MENUITEM "ツール バー(&T)",                  ID_VIEW_TOOLBAR
+        MENUITEM SEPARATOR
+        MENUITEM "ファイルビュー(&F)",                 ID_VIEW_FILEVIEW
+        MENUITEM "帳票情報",                        ID_VIEW_DOCINFVIEW
+        MENUITEM "フォント情報",                      ID_VIEW_FONTVIEW
+        MENUITEM "Fontlist.xml",                ID_VIEW_FONTXML
+        MENUITEM "文字情報",                        ID_VIEW_TEXTVIEW
+        MENUITEM "数値情報",                        ID_VIEW_NUMERICALVIEW
+        MENUITEM SEPARATOR
+        MENUITEM "当ページ情報(&P)",                  ID_VIEW_PAGEINFVIEW
+        MENUITEM SEPARATOR
+        POPUP "ズーム"
+        BEGIN
+            MENUITEM "100%\t*",                     ID_VIEW_FULL
+            MENUITEM "拡大表示\t+",                     ID_VIEW_ZOOMIN
+            MENUITEM "縮小表示\t-",                     ID_VIEW_ZOOMOUT
+            MENUITEM "Page Width",                  ID_VIEW_SHOWWIDE
+        END
+    END
+    POPUP "デバッグ"
+    BEGIN
+        MENUITEM "デバッグバー(&D)",                  ID_VIEW_DEBUG
+        MENUITEM SEPARATOR
+        MENUITEM "文字表示を表示する",                   ID_VIEW_TEXT
+        MENUITEM "オーバーレイを表示する",                 ID_VIEW_OVLY
+        MENUITEM "文字詳細情報を表示する",                 ID_VIEW_TIPS
+        MENUITEM "イメージを表示する",                   ID_VIEW_IMAGE
+        MENUITEM "罫線を表示する",                     ID_VIEW_LINE
+        MENUITEM "文字の座標を描画する",                  ID_VIEW_TEXTXY
+        MENUITEM "セル定義を描画する",                   ID_VIEW_CELLDEF
+        MENUITEM "WSI領域を描画する",                  ID_FILE_OPENCELL
+        MENUITEM SEPARATOR
+        MENUITEM "文字情報をダンプする",                  ID_VIEW_TEXTDUMP
+        MENUITEM SEPARATOR
+        MENUITEM "イメージをファイルに保存する",              32837
+    END
+    POPUP "ウィンドウ(&W)"
+    BEGIN
+        MENUITEM "新しいウィンドウを開く(&N)",             ID_WINDOW_NEW
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "バージョン情報(&A)...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_ESCAPE,      ID_VIEW_ESCAPE,         VIRTKEY, NOINVERT
+    "*",            ID_VIEW_FULL,           ASCII,  NOINVERT
+    "+",            ID_VIEW_ZOOMIN,         ASCII,  NOINVERT
+    "-",            ID_VIEW_ZOOMOUT,        ASCII,  NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 280, 138
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "バージョン情報"
+FONT 9, "MS UI Gothic", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "W01 Viewer V1.0.3.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2015 Qinghai Gou.  All rights reserved.",IDC_STATIC,42,26,221,8
+    DEFPUSHBUTTON   "OK",IDOK,223,117,50,14,WS_GROUP
+END
+
+IDD_INFODIALOG DIALOGEX 0, 0, 379, 310
+STYLE DS_SYSMODAL | DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x80
+BEGIN
+    PUSHBUTTON      "閉じる",IDCANCEL,322,289,50,14
+    CONTROL         "",IDC_POS_FRAME,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,7,7,365,274
+END
+
+IDD_SELFONTDIALOG DIALOGEX 0, 0, 251, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "フォント名指定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,135,90,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,194,90,50,14
+    CONTROL         "",IDC_FONTCOMBO,"MfcFontComboBox",WS_VSCROLL | WS_TABSTOP | 0xa92,94,22,143,30,WS_EX_TRANSPARENT
+    LTEXT           "FontName",IDC_TXT_FONTNAME,12,25,81,8
+    GROUPBOX        "フォント名の指定",IDC_STATIC,7,7,237,80
+    CONTROL         "デバイスフォント",IDC_CHK_DEVICE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,46,92,10
+    CONTROL         "ラスタフォント",IDC_CHK_RASTER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,58,92,10
+    CONTROL         "TrueType フォント",IDC_CHK_TRUETYPE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,70,92,10
+END
+
+IDD_GOTODIALOG DIALOGEX 0, 0, 237, 69
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ページ番号指定"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,115,48,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,180,48,50,14
+    COMBOBOX        IDC_COM_PAGES,7,19,124,115,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "ページ番号を指定してください。",IDC_STATIC,7,7,169,8
+END
+
+IDD_SAVEIMGDIALOG DIALOGEX 0, 0, 293, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "イメージ保存"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO1,7,17,150,65,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_TEXT_OUT,7,47,265,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "保存",IDOK,181,85,50,14
+    PUSHBUTTON      "キャンセル",IDCANCEL,236,85,50,14
+    LTEXT           "イメージを選択してください。",IDC_STATIC,7,7,162,8
+    LTEXT           "保存先",IDC_STATIC,7,38,129,8
+    PUSHBUTTON      "...",IDC_BROWSE,272,47,14,14
+    CONTROL         "全てイメージを出力する",IDC_SAVEALL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,163,19,123,10
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104b0"
+        BEGIN
+            VALUE "CompanyName", "リコージャパン株式会社"
+            VALUE "FileDescription", "w01draw"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "w01draw.exe"
+            VALUE "LegalCopyright", "Copyright (C) RICOH JAPAN Corporation.  All rights reserved."
+            VALUE "OriginalFilename", "w01draw.exe"
+            VALUE "ProductName", "w01draw"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 131
+    END
+
+    IDD_INFODIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 372
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 303
+    END
+
+    IDD_SELFONTDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_GOTODIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 62
+    END
+
+    IDD_SAVEIMGDIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 99
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_ZOOMIN              CURSOR                  "res\\zoomin.cur"
+
+IDC_ZOOMOUT             CURSOR                  "res\\zoomout.cur"
+
+IDC_HANDOVER            CURSOR                  "res\\handover.cur"
+
+IDC_HANDDRAG            CURSOR                  "res\\handdrag.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SELFONTDIALOG DLGINIT
+BEGIN
+    IDC_FONTCOMBO, 0x37c, 270, 0
+0x4d3c, 0x4346, 0x6f43, 0x626d, 0x426f, 0x786f, 0x445f, 0x6172, 0x5577, 
+0x6973, 0x676e, 0x6f46, 0x746e, 0x543e, 0x5552, 0x3c45, 0x4d2f, 0x4346, 
+0x6f43, 0x626d, 0x426f, 0x786f, 0x445f, 0x6172, 0x5577, 0x6973, 0x676e, 
+0x6f46, 0x746e, 0x3c3e, 0x464d, 0x4343, 0x6d6f, 0x6f62, 0x6f42, 0x5f78, 
+0x6853, 0x776f, 0x7254, 0x6575, 0x7954, 0x6570, 0x6f46, 0x746e, 0x3e73, 
+0x5254, 0x4555, 0x2f3c, 0x464d, 0x4343, 0x6d6f, 0x6f62, 0x6f42, 0x5f78, 
+0x6853, 0x776f, 0x7254, 0x6575, 0x7954, 0x6570, 0x6f46, 0x746e, 0x3e73, 
+0x4d3c, 0x4346, 0x6f43, 0x626d, 0x426f, 0x786f, 0x535f, 0x6f68, 0x5277, 
+0x7361, 0x6574, 0x5472, 0x7079, 0x4665, 0x6e6f, 0x7374, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4343, 0x6d6f, 0x6f62, 0x6f42, 0x5f78, 0x6853, 
+0x776f, 0x6152, 0x7473, 0x7265, 0x7954, 0x6570, 0x6f46, 0x746e, 0x3e73, 
+0x4d3c, 0x4346, 0x6f43, 0x626d, 0x426f, 0x786f, 0x535f, 0x6f68, 0x4477, 
+0x7665, 0x6369, 0x5465, 0x7079, 0x4665, 0x6e6f, 0x7374, 0x463e, 0x4c41, 
+0x4553, 0x2f3c, 0x464d, 0x4343, 0x6d6f, 0x6f62, 0x6f42, 0x5f78, 0x6853, 
+0x776f, 0x6544, 0x6976, 0x6563, 0x7954, 0x6570, 0x6f46, 0x746e, 0x3e73, 
+
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE の初期化に失敗しました。OLE ライブラリのバージョンが正しいことを確認してください。"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "w01draw"
+    IDR_w01drawTYPE         "\nw01draw\nw01draw\nw01draw Files (*.w01)\n.w01\nw01draw.Document\nw01draw.Document"
+    ID_WINDOW_MANAGER       "ウィンドウ(&W)..."
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_DOCINFVIEW      "帳票情報を表示する"
+    ID_VIEW_PAGEINFVIEW     "当ページ情報を表示する"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "w01draw"
+    AFX_IDS_IDLEMESSAGE     "レディ"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "新規にファイルを作成\n新規ファイル"
+    ID_FILE_OPEN            "既存のファイルを開く\n開く"
+    ID_FILE_CLOSE           "作業中のファイルを閉じる\n閉じる"
+    ID_FILE_SAVE            "作業中のファイルを上書きして保存\n保存"
+    ID_FILE_SAVE_AS         "作業中のファイルを新しい名前で保存\n名前をつけて保存"
+    ID_FILE_PAGE_SETUP      "印刷オプションの変更\nページ レイアウトの設定"
+    ID_FILE_PRINT_SETUP     "プリンターおよび印刷オプションの変更\n印刷設定"
+    ID_FILE_PRINT           "作業中のファイルを印刷\n印刷"
+    ID_FILE_PRINT_DIRECT    "作業中のドキュメントを現在のオプションで印刷\nクイック印刷"
+    ID_FILE_PRINT_PREVIEW   "印刷イメージを表示\n印刷プレビュー"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "プログラム情報、バージョン、著作権を表示します。\nバージョン情報"
+    ID_APP_EXIT             "アプリケーションを終了し、ファイルの保存を指示\n終了"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "指定のファイルを開く"
+    ID_FILE_MRU_FILE2       "指定のファイルを開く"
+    ID_FILE_MRU_FILE3       "指定のファイルを開く"
+    ID_FILE_MRU_FILE4       "指定のファイルを開く"
+    ID_FILE_MRU_FILE5       "指定のファイルを開く"
+    ID_FILE_MRU_FILE6       "指定のファイルを開く"
+    ID_FILE_MRU_FILE7       "指定のファイルを開く"
+    ID_FILE_MRU_FILE8       "指定のファイルを開く"
+    ID_FILE_MRU_FILE9       "指定のファイルを開く"
+    ID_FILE_MRU_FILE10      "指定のファイルを開く"
+    ID_FILE_MRU_FILE11      "指定のファイルを開く"
+    ID_FILE_MRU_FILE12      "指定のファイルを開く"
+    ID_FILE_MRU_FILE13      "指定のファイルを開く"
+    ID_FILE_MRU_FILE14      "指定のファイルを開く"
+    ID_FILE_MRU_FILE15      "指定のファイルを開く"
+    ID_FILE_MRU_FILE16      "指定のファイルを開く"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "次のウィンドウに切り替える\n次のペイン"
+    ID_PREV_PANE            "前のウィンドウに切り替える\n前のペイン"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_NEW           "作業中のドキュメントが表示された新しいウィンドウを表示\n新規ウィンドウ"
+    ID_WINDOW_ARRANGE       "ウィンドウの下部にアイコンを整列\nアイコンの整列"
+    ID_WINDOW_CASCADE       "ウィンドウを重ねて表示\n重ねて表示"
+    ID_WINDOW_TILE_HORZ     "ウィンドウを並べて表示\n並べて表示"
+    ID_WINDOW_TILE_VERT     "ウィンドウを並べて表示\n並べて表示"
+    ID_WINDOW_SPLIT         "作業中のウィンドウを分割\n分割"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "選択範囲を消去\n消去"
+    ID_EDIT_CLEAR_ALL       "すべて消去\nすべて消去"
+    ID_EDIT_COPY            "選択範囲をコピーしてクリップボードに保存\nコピー"
+    ID_EDIT_CUT             "選択範囲を切り取ってクリップボードに保存\n切り取り"
+    ID_EDIT_FIND            "指定した文字列の検索\n検索"
+    ID_EDIT_PASTE           "クリップボードの内容を貼り付け\n貼り付け"
+    ID_EDIT_REPEAT          "直前に行った動作を繰り返す\n繰り返し"
+    ID_EDIT_REPLACE         "指定した文字列を他の文字列で置換\n置換"
+    ID_EDIT_SELECT_ALL      "ファイル内のすべてを選択\nすべて選択"
+    ID_EDIT_UNDO            "直前に行った動作を元に戻す\n元に戻す"
+    ID_EDIT_REDO            "取り消した操作をやり直す\nやり直す"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_STATUS_BAR      "ステータス バーの表示/非表示\nステータス バーの表示切り替え"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "ウィンドウのサイズを変更"
+    AFX_IDS_SCMOVE          "ウィンドウの位置を変更"
+    AFX_IDS_SCMINIMIZE      "ウィンドウを最小化する"
+    AFX_IDS_SCMAXIMIZE      "ウィンドウを最大化する"
+    AFX_IDS_SCNEXTWINDOW    "次のウィンドウに切り替える"
+    AFX_IDS_SCPREVWINDOW    "前のウィンドウに切り替える"
+    AFX_IDS_SCCLOSE         "作業中のウィンドウを閉じ、変更したファイルの保存を指示"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "ウィンドウを通常のサイズに戻す"
+    AFX_IDS_SCTASKLIST      "タスク一覧をアクティブにする"
+    AFX_IDS_MDICHILD        "ウィンドウをアクティブにする"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "ファイルが読込できないか、内容が不正です。"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "ペイン 1"
+    IDS_STATUS_PANE2        "ペイン 2"
+    IDS_TOOLBAR_STANDARD    "標準"
+    IDS_TOOLBAR_CUSTOMIZE   "カスタマイズ..."
+    IDS_TOOLBAR_DEBUG       "デバッグ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_FILE_VIEW           "ファイル ビュー"
+    IDS_CLASS_VIEW          "クラス ビュー"
+    IDS_PROPERTIES_WND      "プロパティ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "エクスプローラー"
+    IDS_EDIT_MENU           "編集"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_ZOOMIN          "拡大表示\n拡大"
+    ID_VIEW_ZOOMOUT         "縮小表示\n縮小"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_SHOWWIDE        "幅に合わせる\n幅に合わせる"
+    ID_VIEW_FULL            "全て表示\n全体表示"
+    ID_VIEW_ZOOMCOMBO       "ズーム\nズーム"
+    ID_VIEW_SHOWINFO        "詳細情報を表示する\n詳細情報"
+    ID_VIEW_FIND            "指定した文字列の検索\n検索"
+    ID_VIEW_TEXT            "文字列を表示・非表示する\n文字列"
+    ID_VIEW_OVLY            "オーバーレイ内データを表示する\nオーバーレイデータ"
+    ID_VIEW_IMAGE           "イメージを表示する\nイメージを表示"
+    ID_VIEW_LINE            "罫線を表示する\n罫線を表示"
+    ID_VIEW_TEXTXY          "文字の座標を描画する\n文字の座標"
+    ID_VIEW_CELLDEF         "セル定義を表示する\nセル定義"
+    ID_VIEW_HIGHLIGHT       "強調表示メニュー有効\n強調表示有効"
+    ID_VIEW_TIPS            "文字情報を表示\n文字情報"
+    ID_VIEW_DEBUG           "デバッグツールバーを表示\nデバッグバー"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ZOOM_10             "10%"
+    IDS_ZOOM_25             "25%"
+    IDS_ZOOM_50             "50%"
+    IDS_ZOOM_75             "75%"
+    IDS_ZOOM_100            "100%"
+    IDS_ZOOM_125            "125%"
+    IDS_ZOOM_150            "150%"
+    IDS_ZOOM_200            "200%"
+    IDS_ZOOM_400            "400%"
+    IDS_ZOOM_800            "800%"
+    IDS_ZOOM_1600           "1600%"
+    IDS_ZOOM_2400           "2400%"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ZOOM_3200           "3200%"
+    IDS_ZOOM_6400           "6400%"
+    IDS_OVLY_INFO           "オーバーレイ情報"
+    IDS_OBJECT_CNT          "登録件数"
+END
+
+STRINGTABLE
+BEGIN
+    ID_COLOR_CYAN           "ダークシアン"
+    IDS_ERR_FILESAVE        "ファイルの保存に失敗しました。"
+    IDS_DIR_OUTPUT          "Please select a directory of log."
+    IDS_MSG_OUTPUTPDF       "PDFファイルを出力しました。"
+    IDS_ERRMSG_OUTPUTPDF    "PDFファイルの出力にエラーが発生しました。"
+    IDS_MSG_FILEEXIST       "%s は既に存在します。\n上書きしますか？"
+    ID_FILE_CLOSEALL        "すべての帳票を閉じる\nすべての帳票を閉じる"
+    ID_FILE_CLOSEOTHER      "この帳票以外すべて閉じる\nこの帳票以外すべて閉じる"
+    ID_FILE_PDF             "PDFファイル出力"
+    ID_FILE_OPENCELL        "セル定義ファイルを開く"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_WSI_FILTER          "WSIファイル (*.wsi)|*.wsi|すべてのファイル (*.*)|*.*||"
+    IDS_MSG_OPNEWSI         "ファイルが読込できないか、内容が不正です。"
+END
+
+STRINGTABLE
+BEGIN
+    ID_PAGE_FIRST           "最初のページに切り替える\n最初のページ"
+    ID_PAGE_PREV            "前のページに切り替える\n前のページ"
+    ID_PAGE_COUNT           "総ページ数"
+    ID_PAGE_NEXT            "次のページに切り替える\n次のページ"
+    ID_PAGE_LAST            "最後のページに切り替える\n最後のページ"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_DOC_INFO            "詳細情報"
+    IDS_FONT_INFO           "フォント情報"
+    IDS_USER_INFO           "ユーザー情報"
+    IDS_TEXT_INFO           "文字情報"
+    IDS_XMLF_INFO           "Fontlist.xml"
+    IDS_XMLF_FILTER         "フォント定義ファイル (*.xml)|*.xml|すべてのファイル (*.*)|*.*||"
+    IDS_DOCINF_INFO         "帳票情報"
+    IDS_HEADER_INFO         "W01ヘッダー"
+    IDS_PAGE_INFO           "ページ情報"
+    IDS_PAGE_NO             "番号"
+    IDS_PAGE_WIDTH          "幅"
+    IDS_PAGE_HEIGHT         "高さ"
+    IDS_PAGE_ROTATE         "回転"
+    IDS_PAGE_TEXTCNT        "文字数"
+    IDS_PAGE_LINECNT        "線の数"
+    IDS_PAGE_IMAGENT        "イメージの数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_PAGE_OVLYCNT        "オーバーレイの数"
+    IDS_OBJECT_NO           "番号"
+    IDS_OBJECT_TYPE         "フォーマット"
+    IDS_OBJECT_X            "X座標"
+    IDS_OBJECT_Y            "Y座標"
+    IDS_OBJECT_WIDTH        "幅"
+    IDS_OBJECT_HEIGHT       "高さ"
+    IDS_OBJECT_SIZE         "データサイズ"
+    IDS_OBJECT_SCALEX       "拡大率(横)"
+    IDS_OBJECT_SCALEY       "拡大率(縦)"
+    IDS_NUMERICAL_INFO      "数値情報"
+END
+
+STRINGTABLE
+BEGIN
+    ID_XML_COLLAPSE         "階層下位を非表示する\n折りたたみ"
+    ID_DOCFONT_SYNCTO       "xmlに同期\n同期"
+    ID_DOCFONT_SYNCFROM     "xmlから同期\n同期"
+    ID_DOCFONT_REFRESH      "帳票を再描画する\n再描画"
+    ID_PAGEINF_RELOAD       "ページ情報の再表示"
+    ID_COLOR_AUTO           "自動"
+    ID_COLOR_RED            "赤"
+    ID_COLOR_GREEN          "緑"
+    ID_COLOR_BLUE           "青"
+    ID_COLOR_DARKRED        "ダークレッド"
+    ID_COLOR_DARKGREEN      "ダークグリンー"
+    ID_COLOR_DARKBLUE       "ダークブルー"
+    ID_COLOR_MAGENTA        "ダークマゼンダ"
+    ID_COLOR_DARKYELLOW     "ダークイエロー"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TXT_VERSION         "バージョン"
+    IDS_TXT_SHEET           "帳票"
+    IDS_TXT_FNAME           "ファイル名"
+    IDS_TXT_TITLE           "タイトル"
+    IDS_TXT_FONT            "フォント情報"
+    IDS_TXT_FONTNAME        "フォント名"
+    IDS_TXT_BASE            "基本情報"
+    IDS_TXT_CREATEDATE      "作成日時"
+    IDS_TXT_UPDATEDATE      "更新日時"
+    IDS_TXT_RECORDLEN       "レコード長"
+    IDS_TXT_TOTALPAGE       "ページ数"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_TXT_RECORD          "登録レコード番号"
+    IDS_TXT_NO_REC          "レコード登録情報"
+    IDS_TXT_NO_USERINFO     "ユーザー情報"
+    IDS_TXT_NO_OVLY         "オーバーレイ情報"
+    IDS_TXT_NO_PAGE         "ページ情報"
+    IDS_TXT_NO_IMAGE        "イメージ情報"
+    IDS_TXT_NO_TEXTTBL      "文字テーブル情報"
+    IDS_TXT_NO_TEXTPOS      "文字位置情報"
+    IDS_TXT_NO_COMMENT      "コメント情報"
+    IDS_TXT_NO_STAMP        "検印情報"
+    IDS_TXT_NO_TAG          "付箋情報"
+    IDS_TXT_NO_MARKER       "マーカー情報"
+    IDS_TXT_NO_FONT         "フォント情報"
+    IDS_TXT_NO_BINARY       "バイナリ情報"
+END
+
+STRINGTABLE
+BEGIN
+    ID_TEXT_OVLTEXTCOLOR    "オーバーレイ文字色"
+    ID_REFRESH              "再表示"
+    ID_XML_RELOAD           "ファイルから再読込する\n再読込"
+    ID_XML_OPEN             "XMLファイルを開きます\n開く"
+    ID_XML_SAVE             "XMLへ保存する\n保存"
+    ID_XML_EXPAND           "階層下位を表示する\n展開"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_COLNAME_TEXT        "文字"
+    IDS_COLNAME_TEXTPOS     "位置"
+    IDS_COLNUME_TEXTATTR    "属性"
+    IDS_COLNUME_TEXTFONT    "フォント"
+    IDS_COLNAME_CELL        "セル"
+    IDS_COLNAME_DISPFONT    "表示用フォント"
+    IDS_MSG_TIPS            "座標(x:%d, y:%d)\nサイズ(width:%d, height:%d, rotate:%d)\nwMode:%d\nフォント名:%s\n表示用フォント名：%s\n位置：line:%d, number:%d, block:%d\nセル：x:%d, y:%d"
+    IDS_XML_COMMON          "COMMON"
+    IDS_CELL_FILTER         "セル定義ファイル (*.cdf)|*.cdf|すべてのファイル (*.*)|*.*||"
+    IDS_MSG_NOMEMORY        "メモリ不足のためこの操作を実行できません。"
+    IDS_DIR_IMAGE           "保存先を選択してください。"
+    IDS_FILE_SAVED          "%d個のイメージファイルを出力しました。"
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE 17, 1
+#include "res\w01draw.rc2"  // Microsoft Visual C++ 以外で編集されたリソース
+#include "l.JPN\afxres.rc"      // 標準コンポーネント
+#include "l.JPN\afxprint.rc"    // 印刷/印刷プレビュー リソース
+#if !defined(_AFXDLL)
+#include "l.JPN\afxribbon.rc"        // MFC リボンおよびコントロール バー リソース
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{ad5bd221-715f-42e0-ad10-852c552a82ee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="w01draw.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="w01drawDoc.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="w01drawView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectoryView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoomView.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolbarEx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoDialog.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteStream.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FontPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TextPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesToolbar.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FontXML.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectFontDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FontXmlPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TextToolTips.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GotoDialog.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DocInfoPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PageInfoPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="NumericalPropertiesWnd.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FontSmoothingType.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageSaveDlg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="WsiFile.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="w01draw.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="w01drawDoc.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="w01drawView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectoryView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoomView.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolbarEx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoDialog.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FontPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TextPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FontXML.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectFontDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FontXmlPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TextToolTips.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GotoDialog.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="DocInfoPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PageInfoPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomProp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="NumericalPropertiesWnd.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="FontSmoothingType.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageSaveDlg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WsiFile.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="w01draw.reg" />
+    <None Include="res\w01draw.rc2">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="res\zoomin.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="res\zoomout.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="res\handover.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="res\handdrag.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="w01draw.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="UserImages.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\w01drawDoc.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\w01draw.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\toolbar1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\bmp00002.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\bmp00003.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\docinf_vw.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\font_v.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\font_vie.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\fontxml_v.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\pageinf.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="res\numerical.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="xml\w01draw.xml">
+      <Filter>xml</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

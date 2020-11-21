@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<W01DRAW>
+  <DRAW>
+    <DefaultFontName>ＭＳ 明朝</DefaultFontName>
+    <UseDefaultFont>True</UseDefaultFont>
+    <EnableDebug>True</EnableDebug>
+    <CachePage>10</CachePage>
+    <DebugTextCount>0</DebugTextCount>
+    <DebugImageCount>0</DebugImageCount>
+  </DRAW>
+  <Cell>
+    <CellDefFilePath>C:\PDF\CELL</CellDefFilePath>
+    <CellMargin left="5" top="12" right="5" bottom="12">False</CellMargin>
+    <CellAreasSufferingPercent>70.1</CellAreasSufferingPercent>
+  </Cell>
+  <FONT>
+    <FontMap FontName="DRHGCODEPOS2" MapToName="DRHGCDPOS2" Like="False"/>
+    <FontMap FontName="ＭＳ Ｐ明朝" MapToName="ＭＳ Ｐ明朝" Like="False"/>
+    <FontMap FontName="ＭＳ Ｐゴシック" MapToName="ＭＳ Ｐゴシック" Like="False"/>
+    <FontMap FontName="CourierNew,Courier New" MapToName="Courier New" Like="True"/>
+    <FontMap FontName="Mincho,明朝" MapToName="ＭＳ 明朝" Like="True"/>
+    <FontMap FontName="MS UI Gothic" MapToName="ＭＳ 明朝" Like="True"/>
+    <FontMap FontName="Gothic,ゴシック" MapToName="ＭＳ ゴシック" Like="True"/>
+  </FONT>
+</W01DRAW>
