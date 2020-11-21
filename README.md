@@ -6,6 +6,8 @@ W01Viewerは、2015年頃から、電子帳票システム開発プロジェク�
 なので、W01のフォーマットは非公開のため、w01docを削除してアップロードしました。<br>
 
 ## MFC MDI Application
+Visual Studio 2015<br>
+
 ### Main Window
 ![main](https://github.com/cereskou/w01viewer/blob/main/doc/images/main.png)
 
